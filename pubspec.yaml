@@ -1,0 +1,32 @@
+name: firebase_ml_text_recognition
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  http: ^0.12.0
+  language_pickers:
+  firebase_core:
+  translator: ^0.1.5
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  #  Text recognition:
+  firebase_ml_vision:
+
+  dio:
+  image_picker: ^0.6.7+11
+    google_fonts:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+
